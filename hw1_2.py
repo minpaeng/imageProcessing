@@ -95,7 +95,7 @@ for j, h in enumerate(equalization_original):
 
 
 # print(len(set(LUT)))                            # 150
-
+print(LUT)
 # 원본 -> 평활화 변환
 st = equalization_original[original]
 
