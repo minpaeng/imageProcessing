@@ -25,10 +25,11 @@ for x in range(160,256):
     LUT.append(int(0.6632*x+85.8947))
 LUT = np.ubyte(LUT)
 
-
+print(LUT.shape)
 plt.subplot(2, 5, (6, 7))
 plt.title('3 piecewise')
 st = LUT[img]
+print(st.shape)
 io.imshow(st)
 
 plt.subplot(2, 5, (8, 10))
